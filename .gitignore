@@ -1,0 +1,16 @@
+# 训练输出（体积大，且 checkpoint 是 pickle，不建议进版本库）
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 运行生成的视频/日志
+play_output.mp4
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
